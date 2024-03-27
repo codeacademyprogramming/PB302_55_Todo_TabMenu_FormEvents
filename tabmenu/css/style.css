@@ -1,0 +1,31 @@
+.tab-menu{
+    width: 500px;
+}
+.tab{
+    display: none;
+}
+.tab.active{
+    display: block;
+}
+ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+    padding: 14px;
+    flex-grow: 1;
+    background-color:  rgb(204, 198, 198);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+ul li:hover{
+    background-color:  rgb(119, 117, 117);
+}
+
+ul li.active{
+    background-color:  rgb(119, 117, 117);
+}
